@@ -1,0 +1,15 @@
+reset;
+model Time_SAT.mod;
+data Time_SAT.dat;
+
+option solver cplex;
+solve;
+
+printf "Seneste ankomstid ved første bakeri : %d \n", arrival_time[first(LOCATIONS)];
+printf "Dette tilsvarer klokken %02d:%02d\n", floor(arrival_time[first(LOCATIONS)] / 60), arrival_time[first(LOCATIONS)] mod 60;
+
+printf "\nAnkomsttider for hver lokasjon:\n";
+for {i in LOCATIONS} {
+    printf "%s: %d (klokken %02d:%02d)\n", 
+           i, arrival_time[i], floor(arrival_time[i] / 60), arrival_time[i] mod 60;
+}

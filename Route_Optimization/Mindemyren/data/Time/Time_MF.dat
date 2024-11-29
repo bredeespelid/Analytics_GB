@@ -1,0 +1,38 @@
+set LOCATIONS := KronstadX Fløttmannsplassen Marken VestreTorggaten Festplassen Fløyen Korskirken Christie Lagunen Horisont;
+
+set PRIORITIES := 1 2 3 4 5 6;
+
+param travel_time :=
+    KronstadX Fløttmannsplassen 6
+    Fløttmannsplassen Marken 10
+    Marken VestreTorggaten 5
+    VestreTorggaten Festplassen 3
+    Festplassen Fløyen 3
+    Fløyen Korskirken 9
+    Korskirken Christie 8
+    Christie Lagunen 20
+    Lagunen Horisont 30;
+
+param unloading_time :=
+    KronstadX 7
+    Fløttmannsplassen 7
+    Marken 7
+    VestreTorggaten 7
+    Festplassen 7
+    Fløyen 7
+    Korskirken 7
+    Christie 7
+    Lagunen 15
+    Horisont 7;
+
+param opening_time :=
+    1 360 # KronstadX opens at 06:00 (360 minutes after midnight)
+    2 390 # Fløttmannsplassen opens at 06:30 (390 minutes after midnight)
+    3 420 # Marken opens at 07:00 (420 minutes after midnight)
+    4 450 # VestreTorggaten opens at 07:30 (450 minutes after midnight)
+    5 480 # Lagunen opens at 08:00 (480 minutes after midnight)
+    6 540; # Horisont opens at 09:00 (540 minutes after midnight)
+
+param buffer_time := 28;
+
+ 

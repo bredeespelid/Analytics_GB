@@ -1,0 +1,44 @@
+reset;
+# Load the model
+model Mindemyren_sun.mod;
+
+# Load the data
+data Mindemyren_sun.dat;
+
+# Set the solver to Gurobi
+option solver gurobi;
+
+# Solve the problem
+solve;
+
+# Display results
+printf "Optimal Routes:\n";
+
+for {d in DAYS} {
+    printf "\nDay: %s\n", d;
+    printf "Start at Mindemyren\n";
+    
+    let current := 'Mindemyren';
+
+    repeat {
+        # Find the next location based on x[d,current,j]
+        for {j in BAKERIES: j != current} {
+            if x[d,current,j] > 0.5 then {
+                if j != 'Mindemyren' then
+                    printf "From %s to %s (Priority: %d)\n", 
+                           current, j, PRIORITY[d,j];
+                else
+                    printf "From %s to %s\n", current, j;
+                let current := j;
+                break;
+            }
+        }
+    } until current = 'Mindemyren';
+
+    printf "End at Mindemyren\n";
+    printf "Total Distance for %s: %.2f km\n", d, 
+           sum{i in BAKERIES, j in BAKERIES: i != j} DISTANCE[i,j] * x[d,i,j];
+}
+
+printf "\nOverall Total Distance: %.2f km\n", 
+       sum{d in DAYS, i in BAKERIES, j in BAKERIES: i != j} DISTANCE[i,j] * x[d,i,j];

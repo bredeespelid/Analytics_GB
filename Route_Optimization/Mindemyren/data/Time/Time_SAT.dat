@@ -1,0 +1,19 @@
+set LOCATIONS := KronstadX Lagunen;
+
+set PRIORITIES := 2;
+
+param travel_time :=
+    KronstadX Lagunen 12;
+
+param unloading_time :=
+    KronstadX 7
+    Lagunen 15;
+
+param opening_time :=
+    2 480; # Åpningstid for prioritet 2 (08:00)
+
+param buffer_time := 28;
+
+param location_priority :=
+    KronstadX 2
+    Lagunen 2;

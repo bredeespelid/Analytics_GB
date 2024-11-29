@@ -1,0 +1,43 @@
+set LOCATIONS := Fløyen Marken Fløttmannsplassen KronstadX VestreTorggaten Festplassen Korskirken Christie Lagunen;
+
+set PRIORITIES := 1 2 3 4;
+
+param travel_time :=
+    Fløyen Marken 9
+    Marken Fløttmannsplassen 8
+    Fløttmannsplassen KronstadX 5
+    KronstadX VestreTorggaten 9
+    VestreTorggaten Festplassen 3
+    Festplassen Korskirken 3
+    Korskirken Christie 9
+    Christie Lagunen 16;
+
+param unloading_time :=
+    Fløyen 7
+    Marken 7
+    Fløttmannsplassen 7
+    KronstadX 7
+    VestreTorggaten 7
+    Festplassen 7
+    Korskirken 7
+    Christie 7
+    Lagunen 15;
+
+param opening_time :=
+    1 420
+    2 480
+    3 540
+    4 600;
+
+param buffer_time := 28;
+
+param location_priority :=
+    Fløyen 1
+    Marken 2
+    Fløttmannsplassen 3
+    KronstadX 3
+    VestreTorggaten 3
+    Festplassen 3
+    Korskirken 3
+    Christie 3
+    Lagunen 4;

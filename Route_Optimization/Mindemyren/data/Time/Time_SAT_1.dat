@@ -1,0 +1,39 @@
+set LOCATIONS := Fløttmannsplassen Fløyen Korskirken Marken Festplassen VestreTorggaten Christie Horisont;
+
+set PRIORITIES := 1 2 3;
+
+param travel_time :=
+    Fløttmannsplassen Fløyen 9
+    Fløyen Korskirken 14
+    Korskirken Marken 2
+    Marken Festplassen 5
+    Festplassen VestreTorggaten 4
+    VestreTorggaten Christie 3
+    Christie Horisont 24;
+
+param unloading_time :=
+    Fløttmannsplassen 7
+    Fløyen 7
+    Korskirken 7
+    Marken 7
+    Festplassen 7
+    VestreTorggaten 7
+    Christie 7
+    Horisont 15;
+
+param opening_time :=
+    1 420 # Åpningstid for prioritet 1 (07:00)
+    2 480 # Åpningstid for prioritet 2 (08:00)
+    3 540; # Åpningstid for prioritet 3 (09:00)
+
+param buffer_time := 28;
+
+param location_priority :=
+    Fløttmannsplassen 1
+    Fløyen 1
+    Korskirken 2
+    Marken 2
+    Festplassen 2
+    VestreTorggaten 2
+    Christie 3
+    Horisont 3;
