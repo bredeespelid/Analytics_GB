@@ -65,11 +65,12 @@ def parse_json_response(response_text):
 def process_batch(batch):
     batch_json = json.dumps(batch, ensure_ascii=False)
     system_message = (
-        "You are an assistant trained to analyze customer feedback."
-        "Classify each review into categories, including 'Positiv tilbakemelding', 'Dyre produkter', "
-        "'Dårlige produkter', 'Dårlig kundeservice/opplevelse', 'Lang kø/ventetid', 'Dårlig renhold', and 'Ingen kommentar'. "
-        "At least one of the categories should be 1. But only assign Annet Dårlig if all categories are 0. "
-        "Assign binary values (0 or 1) for each category for each review. Exclude the original comment"
+        "You are an assistant designed to analyze and classify customer feedback."
+        "Classify each review into categories, including:"
+        "'Negativ tilbakemelding', 'Rimelige produkter', 'Gode produkter', "
+        "'God kundeservice/opplevelse', 'Kort kø/ventetid', 'Godt renhold', 'Ingen kommentar', and 'Annet Bra'. "
+        "Assign binary values (0 or 1) for each category based on the content of the review. "
+        "At least one category must be 1 for each review. "
     )
     user_message = f"""
 Analyser følgende data i JSON-format:
@@ -83,15 +84,15 @@ Utdata må inkludere nøyaktig følgende JSON-struktur uten ekstra tekst, forkla
         "Avd": "<avdeling>",
         "★": <star_rating>,
         "categories": {{
-            "Positiv tilbakemelding": <0_or_1>,
-            "Dyre produkter": <0_or_1>,
-            "Dårlige produkter": <0_or_1>,
-            "Dårlig kundeservice/opplevelse": <0_or_1>,
-            "Lang kø/ventetid": <0_or_1>,
-            "Dårlig renhold": <0_or_1>,
-            "Ingen kommentar": <0_or_1>,
-            "Annet Dårlig": <0>
-        }}
+        "Negativ tilbakemelding": <0_or_1>,
+        "Rimelige produkter": <0_or_1>,
+        "Gode produkter": <0_or_1>,
+        "God kundeservice/opplevelse": <0_or_1>,
+        "Kort kø/ventetid": <0_or_1>,
+        "Godt renhold": <0_or_1>,
+        "Ingen kommentar": <0_or_1>,
+        "Annet Bra": <0_or_1>
+
     }}
 ]
 
