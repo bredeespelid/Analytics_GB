@@ -43,7 +43,7 @@ data <- data %>%
 # Funksjon for å lage gyldig formel med forklaringsgrad
 generate_valid_formula <- function(department_data) {
   # Bygg lineær modell
-  model <- lm(Rating ~ Positiv + Rimelige_P + Gode_P + Kort_V + Godt_R + Annet_B, 
+  model <- lm(Rating ~ Positiv + Rimelige_P + Gode_P + Godt_R + Annet_B, 
               data = department_data)
   
   # Hent modellresultater og filtrer kun signifikante variabler
@@ -112,60 +112,5 @@ print(formulas_df, n = Inf)
 write.csv(formulas_df, "formler_positive.csv", row.names = FALSE)
 
 
-# Last inn nødvendige bibliotek
-library(dplyr)
-library(ggplot2)
-library(broom)
-
-# Utforsk distribusjonen av Kort_V
-kort_v_dist <- data %>%
-  summarise(
-    Antall_Kort_V_0 = sum(Kort_V == 0, na.rm = TRUE),
-    Antall_Kort_V_1 = sum(Kort_V == 1, na.rm = TRUE),
-    Andel_Kort_V_1 = mean(Kort_V == 1, na.rm = TRUE)
-  )
-print(kort_v_dist)
-
-# Utfør korrelasjonsanalyse for binære variabler
-cor_matrix <- data %>%
-  select(Positiv, Rimelige_P, Gode_P, Kort_V, Godt_R, Annet_B, Rating) %>%
-  cor(use = "complete.obs")
-print(cor_matrix)
-
-# Visualiser effekten av Kort_V på Rating
-ggplot(data, aes(x = Kort_V, y = Rating)) +
-  geom_boxplot() +
-  labs(title = "Effekt av Kort Ventetid (Kort_V) på Rating", x = "Kort Ventetid (1 = Kort, 0 = Lang)", y = "Rating")
-
-# Kjør en enkel lineær modell for Kort_V alene
-kort_v_model <- lm(Rating ~ Kort_V, data = data)
-summary(kort_v_model)
-
-# Utforsk Kort_V på tvers av avdelinger
-kort_v_avdeling <- data %>%
-  group_by(Avd, Kort_V) %>%
-  summarise(Gjennomsnitt_Rating = mean(Rating, na.rm = TRUE), .groups = "drop") %>%
-  arrange(desc(Gjennomsnitt_Rating))
-print(kort_v_avdeling)
-
-# Kjør en lineær modell med alle variabler inkludert
-full_model <- lm(Rating ~ Positiv + Rimelige_P + Gode_P + Kort_V + Godt_R + Annet_B, data = data)
-summary(full_model)
-
-# Identifiser signifikante prediktorer
-signifikante_prediktorer <- tidy(full_model) %>%
-  filter(p.value < 0.1)
-print(signifikante_prediktorer)
-
-# Visualiser residualer for modellen
-ggplot(data.frame(residuals = resid(full_model), fitted = fitted(full_model)), aes(x = fitted, y = residuals)) +
-  geom_point() +
-  labs(title = "Residualanalyse for Full Modell", x = "Fitted Values", y = "Residuals") +
-  geom_hline(yintercept = 0, linetype = "dashed")
-
-# Test for multikollinearitet med Variance Inflation Factor (VIF)
-library(car)
-vif_values <- vif(full_model)
-print(vif_values)
 
 
