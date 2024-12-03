@@ -1,0 +1,728 @@
+[
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "12 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "13 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "3 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "7 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "5 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "4 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "6 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "2 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "4 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "12 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "7 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "12 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "11 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "7 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "2 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "2 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "5 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "12 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "4 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "7 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "11 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "12 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "5 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "2 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "3 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "6 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "11 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "4 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "6 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "5 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "7 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "7 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "5 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "6 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "7 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "11 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "12 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "8 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "5 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "9 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "15 mins"
+    },
+    {
+        "origin": "Minde allé 35, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "16 mins"
+    },
+    {
+        "origin": "Vestre Torggaten 2, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "15 mins"
+    },
+    {
+        "origin": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "20 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Marken 1 5017, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "18 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "19 mins"
+    },
+    {
+        "origin": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "19 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Christies gate 10 5016, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "19 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "13 mins"
+    },
+    {
+        "origin": "Inndalsveien 6, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "11 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "16 mins"
+    },
+    {
+        "origin": "Muséplassen 3, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "14 mins"
+    },
+    {
+        "origin": "Damsgårdsveien 59, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "14 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "16 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "16 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "18 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "15 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "14 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "19 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "15 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Minde allé 35, Bergen, Norway",
+        "status": "OK",
+        "duration": "11 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Vestre Torggaten 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Vetrlidsallmenningen 19, Bergen, Norway",
+        "status": "OK",
+        "duration": "18 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Marken 1 5017, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Nedre Korskirkeallmenningen 12, Bergen, Norway",
+        "status": "OK",
+        "duration": "19 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Christies gate 10 5016, Bergen, Norway",
+        "status": "OK",
+        "duration": "15 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Inndalsveien 6, Bergen, Norway",
+        "status": "OK",
+        "duration": "10 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Muséplassen 3, Bergen, Norway",
+        "status": "OK",
+        "duration": "17 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Damsgårdsveien 59, Bergen, Norway",
+        "status": "OK",
+        "duration": "14 mins"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    },
+    {
+        "origin": "Myrdalsvegen 2, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "23 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Myrdalsvegen 2, Bergen, Norway",
+        "status": "OK",
+        "duration": "22 mins"
+    },
+    {
+        "origin": "Lagunen Storsenter 5239, Bergen, Norway",
+        "destination": "Lagunen Storsenter 5239, Bergen, Norway",
+        "status": "OK",
+        "duration": "1 min"
+    }
+]

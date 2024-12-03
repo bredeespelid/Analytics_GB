@@ -1,5 +1,5 @@
 set BAKERIES := Korskirken Christie Marken Fløyen Mindemyren Festplassen KronstadX Horisont VestreTorggaten Fløttmannsplassen Lagunen;
-set DAYS := Monday Tuesday Wednesday Thursday Friday Saturday Sunday;
+set DAYS := Monday; #Tuesday Wednesday Thursday Friday Saturday Sunday;
 
 param DISTANCE: 
                 Horisont Festplassen Christie Fløttmannsplassen Marken Mindemyren Lagunen KronstadX VestreTorggaten Korskirken Fløyen :=
@@ -28,6 +28,7 @@ param PRIORITY :=
 [Monday, Lagunen]            5
 [Monday, Horisont]           6
 
+/*
 [Tuesday, KronstadX]         1
 [Tuesday, Marken]            2
 [Tuesday, Fløttmannsplassen] 3
@@ -93,4 +94,6 @@ param PRIORITY :=
 [Sunday, Christie]             3
 [Sunday, Lagunen]              4
 [Sunday, Horisont]             5;
+
+*/
 
