@@ -81,3 +81,15 @@ try:
 
 except Exception as e:
     print(f"An error occurred: {e}")
+
+import json
+
+# Assuming results_json is your JSON object
+
+
+# Save to a file named 'results.json' with UTF-8 encoding
+with open('results.json', 'w', encoding='utf-8') as json_file:
+    json.dump(results_json, json_file, indent=4, ensure_ascii=False)
+
+print("JSON file 'results.json' has been created.")
+
